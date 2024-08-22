@@ -4,139 +4,231 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>PJ Dreams Beauty Care</title>
+    <link rel="stylesheet" href="stylesheet.css">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
-    <link rel="stylesheet" href="home.css">
-    <link rel="stylesheet" href="about.css">
-    <link rel="stylesheet" href="relatedpro.css">
-    <link rel="stylesheet" href="contactus.css">
-    <link rel="stylesheet" href="dark-light-mode.css">
-    <script defer src="dark-light-mode.js"></script>
-    <script defer src="main.js"></script>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
 </head>
 <body>
-    <header>
-        <h1>PJ Dreams Beauty Care</h1>
-        <button id="modeToggle">Dark/Light Mode</button>
-        <nav>
-            <a href="#home">Home</a>
-            <a href="#about">About</a>
-            <a href="#related-projects">Related Projects</a>
-            <a href="#contact">Contact Us</a>
-        </nav>
-    </header>
+    
 
-    <!-- Home Page -->
-    <section id="home">
-        <img src="image2.jpg" alt="Home Image">
-        <h2>Welcome to PJ Dreams Beauty Care</h2>
-        <p>Your ultimate destination for professional makeup and beauty services. We specialize in transforming your look for any occasion, ensuring you look and feel your best.</p>
-        <a href="https://wa.me/yourwhatsappnumber" class="btn">Book Now</a>
-        <div class="social-links">
-            <a href="https://www.whatsApp.com" style="--i:1"><i class='bx bxl-whatsapp'></i></a>
-            <a href="https://www.linkedin.com" style="--i:2"><i class='bx bxl-linkedin'></i></a>
-            <a href="https://www.twitter.com" style="--i:3"><i class='bx bxl-twitter'></i></a>
-            <a href="https://www.telegram.com/" style="--i:4"><i class='bx bxl-telegram'></i></a>
-            <a href="https://www.facebook.com/share/uhGK9ot1WzYBFYaT/?mibextid=JRoKGi" style="--i:5"><i class='bx bxl-facebook'></i></a>
+    <!-- Navbar -->
+<nav>
+    <div class="container">
+        <div class="logo">PJ Dreams</div>
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About Us</a></li>
+            <li><a href="#shoot">Recent Works</a></li>
+            <li><a href="#Contact">Contact Us</a></li>
+        </ul>
+        <div class="theme-switch">
+            <input type="checkbox" id="toggle-dark-mode">
+            <label for="toggle-dark-mode" class="toggle"></label>
+        </div>
+    </div>
+</nav>
+
+ 
+
+
+
+    <section class="home" id="home">
+        
+        <div class="home-content">
+            <h3>Hello! </h3>
+            <h1>I am Janani</h1>
+            <h3>Welcome to  <span class=" text"></span></h3>
+            <p>PJ Dreams Beauty Care
+                <br>Your ultimate destination for professional makeup and beauty services. We specialize in transforming your look for any occasion, ensuring you look and feel your best.
+            </p>
+            <div class="home-sci">
+                <a href="https://www.whatsApp.com" style="--i:1"><i class='bx bxl-whatsapp'></i></a>
+                <a href="https://www.linkedin.com" style="--i:2"><i class='bx bxl-linkedin'></i></a>
+                <a href="https://www.twitter.com" style="--i:3"><i class='bx bxl-twitter'></i></a>
+                <a href="https://www.telegram.com/" style="--i:4"><i class='bx bxl-telegram'></i></a>
+            </div>
+            <a href="https://www.whatsApp.com" class="btn-box">Book Now</a>
+        </div>
+
+    </section>
+
+   
+<section class="about" id="about">
+    <div class="about-img">
+        <img src="logo2.png">
+    </div>
+    <div class="about-text">
+        <h2>About<span>Us</span></h2>
+        <h4>PJ Dreams beauty care</h4>
+        <p>At PJ Dreams Beauty Care, we pride ourselves on our exceptional makeup artistry and beauty skills. With years of experience and a keen eye for detail, our talented team is dedicated to bringing out the best in you.</p>
+        <p> From flawless makeup application to personalized beauty consultations, we offer a wide range of services tailored to your needs.</p>
+        <div class="icon">
+            <a href="https://www.facebook.com/share/uhGK9ot1WzYBFYaT/?mibextid=JRoKGi"style="--i:5"><i class='bx bxl-facebook'></i></a>
             <a href="https://www.instagram.com/" style="--i:6"><i class='bx bxl-instagram-alt'></i></a>
-                <a href="https://www.tiktok.com" style="--i:7"><i class='bx bxl-tiktok'></i></a>
-                <a href="https://www.youtube.com" style="--i:8"><i class='bx bxl-youtube'></i></a>
+            <a href="https://www.tiktok.com" style="--i:7"><i class='bx bxl-tiktok'></i></a>
+            <a href="https://www.youtube.com" style="--i:8"><i class='bx bxl-youtube'></i></a>
 
         </div>
-    </section>
+        <a href="#" class="btn-box">More About Us</a>
 
-    <!-- About Page -->
-    <section id="about">
-        <img src="image.jpg" alt="About Image">
-        <h2>About Us</h2>
-        <p>At PJ Dreams Beauty Care, we pride ourselves on our exceptional makeup artistry and beauty skills. With years of experience and a keen eye for detail, our talented team is dedicated to bringing out the best in you. From flawless makeup application to personalized beauty consultations, we offer a wide range of services tailored to your needs.</p>
-        <a href="https://www.facebook.com/share/uhGK9ot1WzYBFYaT/?mibextid=JRoKGi" style="--i:5"><i class='bx bxl-facebook'></i></a>
-        <a href="#more" class="btn">Read More</a>
-    </section>
+    </div>
+</section>
 
-    <!-- Related Projects Page -->
-    <section id="related-projects">
+    <section id="shoot">
         <h2>Recent Works</h2>
-
-        <!-- Wedding Shoot -->
         <div class="project">
-            <h3>Wedding Pre Shoot</h3>
+        
+            <h2>Wedding Pre Shoot</h2>
             <p>Elegant and breathtaking wedding makeup for your special day.</p>
             <div class="images">
                 <img src="image3.jpg" alt="Wedding Shoot Image 1">
                 <img src="image4.jpg" alt="Wedding Shoot Image 2">
-                <img src="image5.jpg" alt="Wedding Shoot Image 1">
-            
-                <!-- Add more images as needed -->
+                <img src="image5.jpg" alt="Wedding Shoot Image 3">
             </div>
+            <a href="https://www.facebook.com/share/v/KjWDztZPSeZmGouL/?mibextid=WC7FNe" class="btn">Watch Now</a>
         </div>
-
-        <!-- Model Shoot -->
+    
         <div class="project">
-            <h3>Model Shoot</h3>
+        
+            <h2>Model Shoot</h2>
             <p>Professional makeup for stunning model photo shoots.</p>
             <div class="images">
                 <img src="image7.jpg" alt="Model Shoot Image 1">
                 <img src="image8.jpg" alt="Model Shoot Image 2">
-                <img src="image9.jpg" alt="Model Shoot Image 2">
-                <img src="image10.jpg" alt="Model Shoot Image 2">
-                <img src="image11.jpg" alt="Model Shoot Image 2">
-                <img src="image12.jpg" alt="Model Shoot Image 2">
-                <!-- Add more images as needed -->
+                <img src="image9.jpg" alt="Model Shoot Image 3">
+                <img src="image10.jpg" alt="Model Shoot Image 4">
+                <img src="image11.jpg" alt="Model Shoot Image 5">
+                <img src="image12.jpg" alt="Model Shoot Image 6">
             </div>
+            <a href="https://www.facebook.com/share/v/KjWDztZPSeZmGouL/?mibextid=WC7FNe" class="btn">Watch Now</a>
         </div>
-
-        <!-- Birthday Shoot -->
+    
         <div class="project">
-            <h3>Birthday Shoot</h3>
-            <p>Celebrate your special day with fabulous birthday makeup.</p>
-            <div class="images">
-                <img src="image13.jpg" alt="Birthday Shoot Image 1">
-                <img src="image14.jpg" alt="Birthday Shoot Image 2">        
-                <img src="image15.jpg" alt="Birthday Shoot Image 2">
-                <!-- Add more images as needed -->
-            </div>
-        </div>
-
-        <!-- Regional Functions -->
-        <div class="project">
-            <h3>Regional Functions</h3>
+        
+            <h2>Regional Functions</h2>
             <p>Get the perfect look for regional and traditional functions.</p>
             <div class="images">
                 <img src="image16.jpg" alt="Regional Functions Image 1">
                 <img src="image17.jpg" alt="Regional Functions Image 2">
-                <img src="image18.jpg" alt="Birthday Shoot Image 2">
-                <img src="image19.jpg" alt="Birthday Shoot Image 2">
-                <!-- Add more images as needed -->
-            </div>
-        </div>
-
-        <!-- Puperty Ceremony -->
-        <div class="project">
-            <h3>Puperty Ceremony</h3>
-            <p>Beautiful makeup options for puperty ceremonies.</p>
-            <div class="images">
-                <img src="image20.jpg" alt="Regional Functions Image 1">
-                <img src="image21.jpg" alt="Regional Functions Image 2">
-                <img src="image22.jpg" alt="Birthday Shoot Image 2">
-                <img src="image23.jpg" alt="Birthday Shoot Image 2">
-                <!-- Add more images as needed -->
+                <img src="image18.jpg" alt="Regional Functions Image 3">
+                <img src="image19.jpg" alt="Regional Functions Image 4">
             </div>
             <a href="https://www.facebook.com/share/v/KjWDztZPSeZmGouL/?mibextid=WC7FNe" class="btn">Watch Now</a>
         </div>
+    
+    <div class="project">
+       
+            <h2>Birthday Shoot</h2>
+            <p>Celebrate your special day with fabulous birthday makeup.</p>
+            <div class="images">
+                <img src="image13.jpg" alt="Birthday Shoot Image 1">
+                <img src="image14.jpg" alt="Birthday Shoot Image 2">
+                <img src="image15.jpg" alt="Birthday Shoot Image 3">
+            </div>
+            <a href="https://www.facebook.com/share/v/KjWDztZPSeZmGouL/?mibextid=WC7FNe" class="btn">Watch Now</a>
+    </div>
+
+    <div class="project">
+        
+        <h2>Model Shoot</h2>
+        <p>Professional makeup for stunning model photo shoots.</p>
+        <div class="images">
+            <img src="1.jpg" alt="Model Shoot Image 1">
+            <img src="2.jpg" alt="Model Shoot Image 2">
+            <img src="3.jpg" alt="Model Shoot Image 3">
+            <img src="4.jpg" alt="Model Shoot Image 4">
+            <img src="5.jpg" alt="Model Shoot Image 5">
+            
+        </div>
+        <a href="https://www.facebook.com/share/v/KjWDztZPSeZmGouL/?mibextid=WC7FNe" class="btn">Watch Now</a>
+    </div>
+    
+    <div class="project">
+        
+            <h2>Puperty Ceremony</h2>
+            <p>Beautiful makeup options for puperty ceremonies.</p>
+            <div class="images">
+                <img src="image20.jpg" alt="Puperty Ceremony Image 1">
+                <img src="image21.jpg" alt="Puperty Ceremony Image 2">
+                <img src="image22.jpg" alt="Puperty Ceremony Image 3">
+                <img src="image23.jpg" alt="Puperty Ceremony Image 4">
+            </div>
+            <a href="https://www.facebook.com/share/v/KjWDztZPSeZmGouL/?mibextid=WC7FNe" class="btn">Watch Now</a>
+    </div>
+
+    <div class="project">
+        
+        <h2>Model Shoot</h2>
+        <p>Professional makeup for stunning model photo shoots with sarees</p>
+        <div class="images">
+            <img src="11.jpg" alt="Model Shoot Image 1">
+            <img src="12.jpg" alt="Model Shoot Image 2">
+            <img src="13.jpg" alt="Model Shoot Image 3">
+            <img src="14.jpg" alt="Model Shoot Image 4">
+            <img src="15.jpg" alt="Model Shoot Image 5">
+            <img src="16.jpg" alt="Model Shoot Image 6">
+            <img src="17.jpg" alt="Model Shoot Image 7">
+            <img src="18.jpg" alt="Model Shoot Image 8">
+            <img src="19.jpg" alt="Model Shoot Image 9">
+            <img src="20.jpg" alt="Model Shoot Image 10">
+            <img src="21.jpg" alt="Model Shoot Image 11">
+           
+        </div>
+        <a href="https://www.facebook.com/share/v/KjWDztZPSeZmGouL/?mibextid=WC7FNe" class="btn">Watch Now</a>
+    </div>
+</section>
+
+   
+
+
+    
+
+
+
+    <section class="Contact" id="Contact">
+        <div class="Contact-text">
+            <h2>Contact<span>Us</span></h2>
+            <h4>Let's Work Together</h4>
+            <p> Feel free to connect with Us!
+                Have a question or need assistance? Contact our support team via email or phone.
+            </p>
+            <div class="Contact-list">
+                <li><i class='bx bxs-send'></i> 0dot.production@gmail.com</li>
+                <li><i class='bx bxs-phone'></i> 0760655099</li>
+            </div>
+            <div class="contact-icons">
+                <a href="https://www.facebook.com/share/uhGK9ot1WzYBFYaT/?mibextid=JRoKGi"><i class='bx bxl-facebook'></i></a>
+                <a href=""><i class='bx bxl-instagram'></i></a>
+                <a href=""><i class='bx bxl-twitter'></i></a>
+                <a href=""><i class='bx bxl-linkedin'></i></a>
+            </div>
+        </div>
+
+        <div class="contact-form">
+            <form action="contact.php">
+                <input type="" placeholder="Enter Your Name" required>
+                <input type="email" placeholder="Enter Your Email" required>
+                <input type="" placeholder="Enter Your Subject" required>
+                <textarea name="" id="" cols="40" rows="10" placeholder="Enter Your Message" required></textarea>
+                <input type="submit" value="submit" class="send">
+            </form>
+        </div>
     </section>
 
-    <!-- Contact Us Page -->
-    <section id="contact">
-        <h2>Contact Us</h2>
-        <p>Address:Jaffna </p>
-        <p>Email: <a href="mailto:contact@pjdreamsbeautycare.com">contact@pjdreamsbeautycare.com</a></p>
-        <p>Phone: +94 0760655099</p>
-        <a href="https://www.whatsApp.com" style="--i:1"><i class='bx bxl-whatsapp'></i></a>
-        <a href="https://www.facebook.com/share/uhGK9ot1WzYBFYaT/?mibextid=JRoKGi" style="--i:5"><i class='bx bxl-facebook'></i></a>
-    </section>
 
-    <footer>
+
+
+
+
+
+
+    <div class="line">
         <p>&copy; 2024 PJ Dreams Beauty Care. All rights reserved.</p>
-    </footer>
+    </div>
+    <a href="#home" class="top"> <i class='bx bx-up-arrow-alt'></i></a>
+
+
+
+    <script src="main.js"></script>
 </body>
 </html>
